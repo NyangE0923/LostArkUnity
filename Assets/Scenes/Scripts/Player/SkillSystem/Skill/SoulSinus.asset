@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af951381ca759b47b241dc74a304015, type: 3}
+  m_Name: SoulSinus
+  m_EditorClassIdentifier: 
+  skillDamage: 35
+  skillRadius: 4.5
+  skillVector: {x: 0, y: 0, z: 0}
+  skillCoolTime: 12
+  skillCoolTimer: 3.02
+  AttackLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  skillAnimationTrigger: SoulSinus
+  manaCost: 20
+  shockDamage: 30
+  Icon: {fileID: 21300000, guid: dca9fcdb7ebecca47bc71cdef6e9a41c, type: 3}
+  skillEffects:
+  - {fileID: 5638372521459761583, guid: 21dd759d1908fe64dab283e1975bbf68, type: 3}
+  comboCount: 0
+  maxComboCount: 0
+  isComboSkill: 0
+  useComboSkill: 0
+  isCounterSkill: 0
+  isEstherSkill: 0

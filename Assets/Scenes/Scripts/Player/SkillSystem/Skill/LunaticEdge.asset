@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af951381ca759b47b241dc74a304015, type: 3}
+  m_Name: LunaticEdge
+  m_EditorClassIdentifier: 
+  skillDamage: 12
+  skillRadius: 3.5
+  skillVector: {x: 0, y: 0, z: 0}
+  skillCoolTime: 6
+  skillCoolTimer: 3.007719
+  AttackLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  skillAnimationTrigger: LunaticEdge
+  manaCost: 10
+  shockDamage: 7
+  Icon: {fileID: 21300000, guid: 234651707c3df254088426c09b0f4206, type: 3}
+  skillEffects:
+  - {fileID: 6950389659247780202, guid: 8164cdcdd293f9c4b9fe1cdf176ebf3b, type: 3}
+  - {fileID: 515847039215559866, guid: 7a1ec37136bd0b940aa88050a8706d39, type: 3}
+  comboCount: 0
+  maxComboCount: 1
+  isComboSkill: 1
+  useComboSkill: 0
+  isCounterSkill: 0
+  isEstherSkill: 0

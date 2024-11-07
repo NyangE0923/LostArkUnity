@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af951381ca759b47b241dc74a304015, type: 3}
+  m_Name: RustNail
+  m_EditorClassIdentifier: 
+  skillDamage: 15
+  skillRadius: 3.7
+  skillVector: {x: 0, y: 0, z: 0}
+  skillCoolTime: 8
+  skillCoolTimer: 3.007358
+  AttackLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  skillAnimationTrigger: RustNail
+  manaCost: 10
+  shockDamage: 20
+  Icon: {fileID: 21300000, guid: 1dd5d29a6a92da4488c96d0e5cd4d959, type: 3}
+  skillEffects:
+  - {fileID: 3670000767439807346, guid: 14312e6e19e22d84eada39df2b14f22b, type: 3}
+  comboCount: 0
+  maxComboCount: 1
+  isComboSkill: 0
+  useComboSkill: 0
+  isCounterSkill: 1
+  isEstherSkill: 0
